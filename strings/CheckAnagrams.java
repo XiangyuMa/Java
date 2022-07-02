@@ -16,6 +16,7 @@ public class CheckAnagrams {
   /**
    * Check if two strings are anagrams or not
    *
+   * 将字符串全部转为相同的大写（或者小写），然后排序比较是否相同即可
    * @param s1 the first string
    * @param s2 the second string
    * @return {@code true} if two string are anagrams, otherwise {@code false}
