@@ -18,6 +18,7 @@ class Alphabetical {
   /**
    * Check if a string is alphabetical order or not
    *
+   * 思路就是遍历一遍字符串，相邻的两个字符串如果前者大于后者的ascill那一定不符合字母表顺序
    * @param s a string
    * @return {@code true} if given string is alphabetical order, otherwise {@code false}
    */
